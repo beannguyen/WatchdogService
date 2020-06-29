@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Watchdog" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="ExternalHealthCheck_PartitionCount" Value="1" />
+    <Parameter Name="ExternalHealthCheck_MinReplicaSetSize" Value="3" />
+    <Parameter Name="ExternalHealthCheck_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="WatchdogService_PartitionCount" Value="1" />
+    <Parameter Name="WatchdogService_MinReplicaSetSize" Value="3" />
+    <Parameter Name="WatchdogService_TargetReplicaSetSize" Value="3" />
+    <Parameter Name="EnvironmentName" Value="Production" />
+    <Parameter Name="ApplicationInsightsKey" Value="d94ed8c2-a570-44fc-8626-7c0cf92ff6ee" />
+    <Parameter Name="ExternalServiceBlobConnection" Value="DefaultEndpointsProtocol=https;AccountName=inconfprodsa;AccountKey=Q/OIdNc+wq18oIhsjmc4vX76VNwpIusilkkVJRk/ovE5P/fC9kGfp/DKjAQ8nEe9moAM4zybCdqJ/+gMhE6tvQ==;EndpointSuffix=core.windows.net" />
+    <Parameter Name="ExternalServiceBlobTable" Value="ComvitaExternalResourceMonitoring" />
+    <Parameter Name="ExternalServicePartitionKey" Value="1" />
+    <Parameter Name="KeyVaultEndpoint" Value="https://int-prod-vlt.vault.azure.net/" />
+    <Parameter Name="KeyValutClientId" Value="b4b10c24-f8c2-4399-9649-1ad9b1ffe9a1" />
+    <Parameter Name="KeyVaultClientSecrect" Value="scugJsBlmzyybIlVZIAcZKpnR9CBCVUNBjf/Qb+nWTU=" />
+    <Parameter Name="ClientThumbCert" Value="7482128AD9D4C34474254324088DACE687600046" />
+    <Parameter Name="CertCommonName" Value="comvita.com" />
+  </Parameters>
+</Application>
