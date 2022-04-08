@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Autofac" Version="4.8.1" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.0" />
-    <PackageReference Include="Bond.Core.CSharp" Version="8.0.0" />
+    <PackageReference Include="Bond.Core.CSharp" Version="9.0.5" />
     <PackageReference Include="Comvita.Common" Version="1.0.0-beta14" />
     <PackageReference Include="EventFlow.Autofac" Version="0.66.3673" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
